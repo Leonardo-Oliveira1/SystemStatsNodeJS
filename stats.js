@@ -8,9 +8,9 @@ setInterval(() => {
     const percent = parseInt((freeMemory / totalMemory) * 100);
     
     const stats = {
-        free: `${freeMemory} MB`,
         total: `${totalMemory} MB`,
-        usage: `${percent}%`
+        free: `${freeMemory} MB`,
+        free_usage: `${percent}%`
     }
     
     console.clear();
